@@ -679,7 +679,8 @@ h1, h2, h3, p {
   gap: 10px;
 }
 .footer__social {
-  padding: 12px;
+  width: 44px;
+  height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -712,11 +713,19 @@ h1, h2, h3, p {
   text-transform: uppercase;
   margin-bottom: 20px;
   display: inline-block;
+  color: red;
 }
 .footer__form {
   display: flex;
   align-items: center;
-  gap: 12px;
+  flex-direction: column;
+  gap: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .footer__form {
+    gap: 12px;
+    flex-direction: row;
+  }
 }
 .footer__input {
   color: rgba(255, 255, 255, 0.6);

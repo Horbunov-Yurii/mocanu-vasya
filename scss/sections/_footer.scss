@@ -85,7 +85,8 @@ letter-spacing: 0.78px;
 }
 
 &__social {
-  padding: 12px;
+  width: 44px;
+  height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,12 +128,19 @@ letter-spacing: 0.78px;
   text-transform: uppercase;
   margin-bottom: 20px;
   display: inline-block;
+  color: red;
 }
 
 &__form {
   display: flex;
   align-items: center;
-  gap: 12px;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (min-width:1200px) {
+    gap: 12px;
+    flex-direction: row;
+  }
 }
 
 &__input {
