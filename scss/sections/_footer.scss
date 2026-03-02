@@ -36,6 +36,7 @@ letter-spacing: 0.78px;
 &__address {
   font-style: normal;
   margin-top: 20px;
+  color: #fff;
 }
 
 &__box {
@@ -45,7 +46,7 @@ letter-spacing: 0.78px;
 &__it
 
 &__position {
-  color: $title-color;
+  color: #fff;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -128,7 +129,7 @@ letter-spacing: 0.78px;
   text-transform: uppercase;
   margin-bottom: 20px;
   display: inline-block;
-  color: red;
+
 }
 
 &__form {

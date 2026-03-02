@@ -32,6 +32,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 img {
@@ -640,6 +641,7 @@ h1, h2, h3, p {
 .footer__address {
   font-style: normal;
   margin-top: 20px;
+  color: #fff;
 }
 .footer__box {
   margin-left: 70px;
@@ -713,7 +715,6 @@ h1, h2, h3, p {
   text-transform: uppercase;
   margin-bottom: 20px;
   display: inline-block;
-  color: red;
 }
 .footer__form {
   display: flex;
